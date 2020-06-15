@@ -1,0 +1,212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`login snapshot 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+>
+  <Image
+    source={1}
+    style={
+      Object {
+        "maxHeight": "90%",
+        "maxWidth": "80%",
+        "position": "absolute",
+        "resizeMode": "cover",
+        "zIndex": -10000,
+      }
+    }
+  />
+  <View
+    onLayout={[Function]}
+  >
+    <RCTScrollView>
+      <View>
+        <View
+          style={
+            Object {
+              "height": "100%",
+              "paddingHorizontal": 50,
+              "paddingTop": 70,
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "display": "flex",
+                "flexDirection": "column",
+                "height": "65%",
+                "justifyContent": "space-between",
+                "paddingVertical": 70,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "marginBottom": 5,
+                }
+              }
+            >
+              Username
+            </Text>
+            <TextInput
+              allowFontScaling={true}
+              name="username"
+              onChangeText={[Function]}
+              onSubmitEditing={[Function]}
+              rejectResponderTermination={true}
+              returnKeyType="next"
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#D4D4D4",
+                  "borderRadius": 6,
+                  "borderWidth": 1,
+                  "color": "#959595",
+                  "height": 40,
+                  "marginBottom": 25,
+                  "minHeight": "5%",
+                  "paddingLeft": 10,
+                }
+              }
+              testID="username"
+              underlineColorAndroid="transparent"
+              value=""
+            />
+            <Text
+              style={
+                Object {
+                  "color": "#FFFFFF",
+                  "marginBottom": 5,
+                }
+              }
+            >
+              Password
+            </Text>
+            <TextInput
+              allowFontScaling={true}
+              name="password"
+              onChangeText={[Function]}
+              onSubmitEditing={[Function]}
+              rejectResponderTermination={true}
+              returnKeyType="done"
+              secureTextEntry={true}
+              style={
+                Object {
+                  "backgroundColor": "#FFFFFF",
+                  "borderColor": "#D4D4D4",
+                  "borderRadius": 6,
+                  "borderWidth": 1,
+                  "color": "#959595",
+                  "height": 40,
+                  "marginBottom": 25,
+                  "minHeight": "5%",
+                  "paddingLeft": 10,
+                }
+              }
+              testID="password"
+              underlineColorAndroid="transparent"
+              value=""
+            />
+            <View
+              style={
+                Object {
+                  "flexDirection": "row",
+                  "marginTop": -20,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#FFFFFF",
+                  }
+                }
+              >
+                Don't have an account?
+                 
+              </Text>
+              <View
+                accessible={true}
+                isTVSelectable={true}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#D2291F",
+                      "fontSize": 14,
+                      "fontWeight": "bold",
+                      "textDecorationLine": "underline",
+                    }
+                  }
+                >
+                  Sign Up
+                </Text>
+              </View>
+            </View>
+            <View
+              style={
+                Object {
+                  "flexDirection": "row-reverse",
+                  "marginRight": 16,
+                }
+              }
+            >
+              <View
+                accessible={true}
+                isTVSelectable={true}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "alignSelf": "center",
+                    "backgroundColor": "#D2291F",
+                    "borderRadius": 5,
+                    "height": 40,
+                    "justifyContent": "center",
+                    "marginTop": 30,
+                    "opacity": 1,
+                    "paddingVertical": 10,
+                    "width": 150,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    Object {
+                      "color": "#FFFFFF",
+                      "fontSize": 14,
+                      "fontWeight": "bold",
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Login
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</RCTSafeAreaView>
+`;
